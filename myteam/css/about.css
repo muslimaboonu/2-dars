@@ -20,8 +20,9 @@
   line-height: 100px;
 }
 .hero-content {
+  text-align: start;
   width: 100%;
-  min-width: 730px;
+  max-width: 730px;
 }
 
 .hero-diveder {
@@ -29,6 +30,7 @@
 }
 
 .hero-description {
+  padding-top: 30px;
   font-size: 18px;
 }
 /*HERO END*/
@@ -82,6 +84,7 @@
 .directors-item-level {
   font-size: 15px;
   font-weight: 500;
+  margin-bottom: 40px;
 }
 .directors-item-show-info-btn {
   background-color: #f67e7e;
@@ -89,7 +92,7 @@
   height: 56px;
   display: flex;
   justify-content: center;
-  align-items: centers;
+  align-items: center;
   border-radius: 50%;
   border: 0;
   margin-top: -28px;
@@ -104,7 +107,6 @@
   color: #ffffff;
   background-image: url("../images/bg-pattern-home-3.svg");
   background-repeat: no-repeat;
-  background-position: ;
 }
 .clients-container {
 }
